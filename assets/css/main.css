@@ -3044,10 +3044,11 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: #039;
 		}
 
 		#banner h2 {
+			font-family: "Cursiva"; 
 			font-size: 3.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
@@ -3094,7 +3095,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 14em 0;
 	}
 
 		#main > header {
