@@ -3030,7 +3030,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/background.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3044,11 +3044,12 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #039;
+			color: #003399;
 		}
 
 		#banner h2 {
-			font-family: "Cursiva"; 
+			font-family: "Cursiva";
+			opacity: 0.85;
 			font-size: 3.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
